@@ -1,0 +1,17 @@
+{
+  "name": "safe-file-writer",
+  "version": "0.0.0",
+  "description": "Safely write small file to filesystem and can recover from last failure state",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -b --compilers .coffee:coffee-script ./test/mocha.coffee"
+  },
+  "keywords": [
+    "file"
+  ],
+  "author": "NStal",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
